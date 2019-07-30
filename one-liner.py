@@ -1,0 +1,1 @@
+import pyperclip; pyperclip.copy(''.join([f'||{char}||' for char in pyperclip.paste()]))
